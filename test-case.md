@@ -1,6 +1,7 @@
-Test case creation
+# Test case creation
 
-Feature: Login
+## Feature: Login
+```bash
 As a user
 I want to be able to login to voila
 So that I can access my account and purchase 
@@ -24,9 +25,10 @@ So that I can access my account and purchase
     When I leave the email and password fields empty
     And click on the login button
     Then I should see an error message
+```
 
-
-Feature: history order, account information on account page
+```bash
+## Feature: history order, account information on account page
 As a user
 I want to be able to access account page and edit them
 So that I can see my history order, see my account details and edit my account details
@@ -56,10 +58,10 @@ Scenario: update address
     And I input all mandatory field that wanted to be changed
     And I click update address
     Then I should success adding my new address
+```
 
-
-
-Feature: Marketplace Search
+```bash
+## Feature: Marketplace Search
   As a user
   I want to be able to search for products on the marketplace
   So that I can find what I am looking for
@@ -80,3 +82,4 @@ Scenario: Search Filters
     And select a search filter
     And click on the search button
     Then I should see a list of relevant products that match the filter criteria
+```

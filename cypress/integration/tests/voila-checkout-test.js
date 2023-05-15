@@ -1,4 +1,4 @@
-import HomePage from '../pages/homePage';
+import HomePage from '../pages/mainPage';
 import voilaAccount from '../../fixtures/account/voila-account.json'
 import Header from '../pages/component/header';
 import LoginPage, {loginPageUrl} from '../pages/loginPage';
@@ -89,12 +89,14 @@ describe('Given User go to voila website and login', function () {
         CheckoutPaymentPage.getTotalAmount().should('contain.text', productPrice);
         const midtransPaymentMethod = 1;
         CheckoutPaymentPage.getPaymentMethodRadioButtonByPosition(midtransPaymentMethod).check();
-        // CheckoutPaymentPage.getPayNowButton().click();
 
-        // cy.go('back');
-
-        // cy.url().should('include', checkoutThankyouPageUrl);
-        // CheckoutThankyouPage.getTotalAmount().should('contain.text', productPrice);
+        /**
+         * commented because its really checkout the real item on production everytime i run and also it redirected to midtrans
+         * CheckoutPaymentPage.getPayNowButton().click();
+         * cy.go('back');
+         * cy.url().should('include', checkoutThankyouPageUrl);
+         * CheckoutThankyouPage.getTotalAmount().should('contain.text', productPrice);
+        */
       });
     }
   );

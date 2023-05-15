@@ -1,6 +1,7 @@
 
-General Question
+# General Question
 
+```bash
 1.As a QA engineer, my passion lies in striving for excellence in the tech industry and making a meaningful impact through quality
   to ensure that every product we deliver meets the highest standards and exceeds customer expectations
 
@@ -28,3 +29,4 @@ General Question
   access to the necessary testing tools, devices, and adequate infrastructure to support comprehensive testing
   Continuous learning and growth opportunities
   Collaboration and communication
+```
