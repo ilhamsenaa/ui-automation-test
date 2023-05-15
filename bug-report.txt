@@ -1,0 +1,18 @@
+Bug report : 
+
+Title : after user success checkout one of the product and the product itself become out
+out of stock, if user back to the marketplace the product still show and if user click it,
+it will redirected to page not found
+
+step to reproduce:
+Login with any active voila.id user
+Click any category of the marketplace
+Choose and click any item product and have only 1 stock
+Click buy
+Proceed until checkout payment
+Success checkout
+Find the item product that you buy
+Expected result : Not found in marketplace
+Actual result :  found it and if user click it it will redirected to page not found
+
+![bug-image-1](cypress/asset/bug-image-1.PNG)
