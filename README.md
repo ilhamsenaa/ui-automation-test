@@ -1,5 +1,5 @@
 # cypress
-UI integration testing using [Cypress](https://www.cypress.io).
+UI End to End testing using [Cypress](https://www.cypress.io).
 
 ## How to install
 
